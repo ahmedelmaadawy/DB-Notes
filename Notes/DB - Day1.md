@@ -48,6 +48,7 @@ ___
 | 1 -Delimited File Seperate data with "," | Tables                                               |
 | 2- Fixed Width File (bytes)              | .mdf .ldf                                            |
 | **Problems**                             | **Advantages**                                       |
+| :--------------------------------------- | ---------------------------------------------------- |
 | 1-Redundancy                             | 1-One Standard *SQL*                                 |
 | 2-Bigger DB                              | 2-Relationship                                       |
 | 3-Lower Performance                      | 3-Constraints rules                                  |
@@ -67,7 +68,7 @@ ___
 | 17-Incompatible File Format              |                                                      |
 
  **Metadata** : Data About data it describes the database tables and can't access data without metadata.
-![[1.png]]
+![Image](https://github.com/ahmedelmaadawy/DB-Notes/blob/main/Notes/Images/1.png)
 # ERD
 Entity-relationship Diagram
 	Identifies information required by the business displaying the relevant entities and relations between them
@@ -76,7 +77,7 @@ Entity-relationship Diagram
 1. Entities 
 2. Attributes 
 3. Relationships 
-![[vlcsnap-2024-03-10-23h13m34s308.png]]
+![Image](https://github.com/ahmedelmaadawy/DB-Notes/blob/main/Notes/Images/vlcsnap-2024-03-10-23h13m34s308.png)
 ___
 ## Types of Entities
 - ### strong Entity
