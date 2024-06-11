@@ -4,6 +4,7 @@
 | ------------------------ | -------------------------- | ----------------------- | ------------------- | ------------------------- |
 | Data Definition Language | Data Manipulation Language | Data Query Language     | Data Query Language | Transact Control Language |
 | Meta Data And structure  | Data                       | Sequrity and permisions | Display             | Execution                 |
+|------------------------- | -------------------------- | ----------------------- | ------------------- | ------------------------- |
 | Create Table             | Insert                     | grant                   | Select +            | begin transaction         |
 | Create function          | update                     | deny                    | Join                | Commit                    |
 | create view              | delete                     | revoke                  | subqueries          | rollback                  |
@@ -29,7 +30,7 @@ FROM DISK ='D:\ITI.bak'
 RESTORE DATABASE ITItest
 FROM DISK ='D:\ITI.bak'
 ```
-**Creating table **
+**Creating table**
 ```SQL 
 USE ITItest
 CREATE TABLE employee(
@@ -168,7 +169,7 @@ WHERE st_address in ('alex','cairo','aswan')
 SELECT * FROM student
 WHERE Dept_Id in(10,30)
 ```
-**Display any student with age in range 20 to 40
+**Display any student with age in range 20 to 40**
 ```sql 
 SELECT * FROM student
 WHERE st_age BETWEEN 20 AND 40
