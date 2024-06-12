@@ -1,6 +1,6 @@
 # Joins
-Examples will be provided on this two tables
-Student Table
+Examples will be provided on this two tables<br>
+Student Table<br>
 
 | Sid | Sname  | did  |
 | --- | ------ | ---- |
@@ -8,7 +8,8 @@ Student Table
 | 2   | khalid | 10   |
 | 3   | eman   | 20   |
 | 4   | omar   | NULL |
-Department Table
+
+Department Table<br>
 
 | Did | Dname |
 | --- | ----- |
@@ -16,6 +17,7 @@ Department Table
 | 20  | HR    |
 | 30  | IS    |
 | 40  | Admin |
+
 ## Type Of Joins
 ### Cross Join
 **Cartesian Product**
@@ -47,6 +49,7 @@ FROM student CROSS JOIN Department
 | khalid | Admin |
 | eman   | Admin |
 | omar   | Admin |
+
 ### Inner Join
 **Equi Join**
 Only Matched Values No null Values from any table FK =PK
@@ -83,6 +86,7 @@ ON S.Did = D.Did
 | khalid | SD    |
 | eman   | HR    |
 | Omar   | NULL  |
+
 **Right Outer Join**
 If You want every row from the right table even if there no matched values 
 ```sql
@@ -98,6 +102,7 @@ ON S.Did = D.Did
 | eman   | HR    |
 | NULL   | IS    |
 | NULL   | ADMIN |
+
 **Full Outer Join**
 If You want every row from the right and left tables even if there no matched values its combination of Left And Right Outer Join
 ```sql
@@ -114,6 +119,7 @@ ON S.Did = D.Did
 | omar   | NULL  |
 | NULL   | IS    |
 | NULL   | ADMIN |
+
 ### Self Join
 **Unary Relation**
 Primary Key and foreign key is in the same table
@@ -125,6 +131,7 @@ Primary Key and foreign key is in the same table
 | 3   | khalid | 1       |
 | 4   | nada   | 2       |
 | 5   | ali    | 2       |
+
 we want a query to know the employee and his supervisor name
 
 ```sql
@@ -139,6 +146,7 @@ WHERE Y.eid = X.superid
 | khalid  | ahmed     |
 | nada    | eman      |
 | ali     | eman      |
+
 ## Examples on Database
 **TRY IT YOURSELF**
 **Cross Join**
@@ -357,6 +365,7 @@ ___
 | DB Objects     |                                            |                                                                                   |                                               |
 |                | **Rule**                                   | **Index**                                                                         | **Trigger**                                   |
 |                | **Trigger**                                | **Trigger**                                                                       |                                               |
+
 ## Types of constraints
 - **Primary Key constraint**
 - **unique constraint** 
