@@ -1,6 +1,6 @@
 create database courses
 use Courses
-Create Table Instrucor (
+Create Table Instructor (
  ID int primary key identity,
 salary int,
 fname varchar(20),
@@ -28,7 +28,7 @@ instID int ,
 Cid int
 
 constraint c3 primary key (instID, Cid),
-constraint C4 foreign key(instID) references Instrucor(ID)
+constraint C4 foreign key(instID) references Instructor(ID)
 	on delete Cascade on update cascade ,
 constraint C5 foreign key(Cid) references course(Cid)
 	on delete Cascade on update cascade
