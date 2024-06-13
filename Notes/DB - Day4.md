@@ -7,7 +7,7 @@
 ___
 Examples will be provided on this employee Table
 
-![[2.PNG]]
+![Table](https://github.com/ahmedelmaadawy/DB-Notes/blob/main/Notes/Images/2.PNG)
 #### The Aggregate Functions don't consider NULL values
 **Sum Of Salaries in employee table**
 ```sql 
