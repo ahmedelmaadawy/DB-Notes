@@ -7,7 +7,7 @@
 ___
 Examples will be provided on this employee Table
 
-![Image](https://github.com/ahmedelmaadawy/DB-Notes/blob/main/Notes/Images/2.PNG)
+![[2.PNG]]
 #### The Aggregate Functions don't consider NULL values
 **Sum Of Salaries in employee table**
 ```sql 
@@ -40,6 +40,7 @@ FROM employee
 ```
 `Result=>5800`
 ___
+# Group By
 when using aggregate function and displaying a column we use group by
 
 **This means display Every Minimum salary for each Department**
@@ -96,6 +97,7 @@ GROUP BY address
 | 3          | alex     |
 | 4          | mansoura |
 ___
+# Having
 ### Filtering based on Groups
 **Having is condition based on aggregate function and is used to filter groups**
 **display sum of every department in the department where sum of salary bigger than > 25000**
@@ -395,7 +397,7 @@ ___
 
 - **Durability** - ensures that changes to your data made by successfully executed transactions will be saved, even in the event of system failure.
 ___
-### Drop ,Drop, truncate
+### Drop ,Delete, truncate
 
 | DROP                      | DELETE                | TRUNCATE                              |
 | ------------------------- | --------------------- | ------------------------------------- |
