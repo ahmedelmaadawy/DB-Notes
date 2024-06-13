@@ -74,4 +74,4 @@ Here are examples of what you'll find in this repository:
 For any questions, feedback, or inquiries, feel free to reach out:
 
 - Email: ahmed.elmaadawy03@gmail.com
-- GitHub: [Your GitHub Profile](https://github.com/ahmedelmaadawy)
+- GitHub: [My GitHub Profile](https://github.com/ahmedelmaadawy)
