@@ -61,7 +61,7 @@ Welcome to my SQL repository! This repository aims to provide comprehensive note
 6. Merge  
 
 ### [Day6](./Notes/DB%20-%20Day6.md)
-1.Variables
+1. Variables
    - Local Variables
    - Global Variables
 2. Flow Control
