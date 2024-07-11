@@ -47,6 +47,36 @@ Welcome to my SQL repository! This repository aims to provide comprehensive note
 10. Identity
 11. Built In Functions
 
+### [Day5](Notes/DB%20-%20Day5.md)
+1. Schema
+2. Top
+3. NEWID
+4. Select Into
+5. RankingFunctions
+   - Row Number
+   - Dense Rank
+   - NTile
+   - Rank
+   - Partition By
+6. Merge  
+
+### [Day6](./Notes/DB%20-%20Day6.md)
+1.Variables
+   - Local Variables
+   - Global Variables
+2. Flow Control
+   - IF
+   - IF exists & IF not exists
+   - While
+   - Case When
+   - IIF
+3. Windowing Functions (LEAD & LAG)
+4. Functions
+   - Scalar Functions
+   - Inline Functions
+   - Mulit-Statement Functions 
+
+
 ## Usage
 
 This repository provides SQL code snippets and explanations to help you understand and apply these concepts effectively. Whether you're studying SQL, preparing for interviews, or working on database projects, these examples offer practical insights and guidance.
