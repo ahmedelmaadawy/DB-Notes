@@ -74,7 +74,17 @@ Welcome to my SQL repository! This repository aims to provide comprehensive note
 4. Functions
    - Scalar Functions
    - Inline Functions
-   - Mulit-Statement Functions 
+   - Mulit-Statement Functions
+
+### [Day7](./Notes/DB%20-%20Day7.md)
+1. Index
+2. Cursor
+3. View
+4. Pivot And Grouping
+
+### [Day8](./Notes/DB%20-%20Day6.md)
+1. Stored Procedure
+2. Triggers
 
 
 ## Usage
