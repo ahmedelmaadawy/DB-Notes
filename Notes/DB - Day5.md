@@ -448,7 +448,8 @@ DailyTransaction
 | 1   | ahmed  | 8000  |
 | 2   | khalid | 9000  |
 | 7   | nada   | 10000 |
-To Update Last Transaction Table at the End of day From Daily Transaction
+
+**To Update Last Transaction Table at the End of day From Daily Transaction**
 
 ```sql
 MERGE INTO Lasttransaction as T
